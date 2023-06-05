@@ -5,22 +5,24 @@ import TheLogo from "../../Images/logo.png";
 
 const TheNavbar = () => {
   return (
-    <nav className='theNav'>
-      <div>
-        <img src={TheLogo} alt='The Logo' className='Logo' />
-      </div>
-
-      <ul className='TheMenu'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Reservation</li>
-        <li>Order Online</li>
-        <div className='Profile'>
-          <CgProfile />
+    <header className='Header'>
+      <nav className='theNav'>
+        <div>
+          <img src={TheLogo} alt='The Logo' className='Logo' />
         </div>
-      </ul>
-    </nav>
+
+        <ul className='TheMenu'>
+          <li>Home</li>
+          <li>About</li>
+          <li>Menu</li>
+          <li>Reservation</li>
+          <li>Order Online</li>
+          <div className='Profile'>
+            <CgProfile />
+          </div>
+        </ul>
+      </nav>
+    </header>
   );
 };
 
