@@ -1,7 +1,11 @@
+import "./index.css";
+
+import Navbar from "./Components/Navbar/TheNavbar";
+
 function App() {
   return (
     <div className='App'>
-      <h1>Little Lemon</h1>
+      <Navbar />
     </div>
   );
 }
