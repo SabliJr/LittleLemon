@@ -3,6 +3,28 @@
     margin: 12rem auto;
 }
 
+.specials>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.specials>div button {
+    background-color: #333333;
+    font-size: 1.6rem;
+    padding: .5rem .8rem;
+    color: #F4CE14;
+    border: none;
+    border-radius: .6rem;
+    cursor: pointer;
+    font-family: 'Markazi Text', serif;
+    font-weight: 600;
+    align-self: start;
+    margin-top: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .specials>div h2 {
     color: #333333;
     font-size: 2.5rem;

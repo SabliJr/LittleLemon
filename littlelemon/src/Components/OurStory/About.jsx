@@ -9,7 +9,7 @@ import AboutImg2 from "../../Images/about-mario.jpg";
 const About = () => {
   return (
     <section className='aboutSection'>
-      <h3>Our Story</h3>
+      <h3>What we say, our Story!</h3>
       <main>
         <article className='AboutText'>
           <h2>Little Lemon</h2>

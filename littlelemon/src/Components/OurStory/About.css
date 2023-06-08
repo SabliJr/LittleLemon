@@ -9,6 +9,8 @@
 .aboutSection>h3 {
     font-size: 3.5rem;
     color: hsl(160, 13%, 38%);
+    text-align: center;
+    margin: 2rem 0;
 }
 
 .aboutSection main {

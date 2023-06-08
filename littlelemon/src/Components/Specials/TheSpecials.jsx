@@ -9,11 +9,14 @@ const TheSpecials = () => {
   return (
     <section className='specials'>
       <div>
-        <h2>This week's specials.</h2>
-        <p>
-          We survey our customers every to select their favorite meals to give
-          them discounts and serve them the test they love.
-        </p>
+        <div>
+          <h2>This week's specials.</h2>
+          <p>
+            We survey our customers every to select their favorite meals to give
+            them discounts and serve them the test they love.
+          </p>
+        </div>
+        <button>Online Menu</button>
       </div>
       <article>
         <div className='specialDiv'>
