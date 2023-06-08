@@ -1,0 +1,25 @@
+.testimonials {
+    max-width: 1280px;
+    margin: 5rem auto;
+}
+
+.reviewsQuotes {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 1.3rem 0 2.5rem;
+}
+
+/* #figureO {
+    width: 20vw;
+} */
+
+.reviewerImg {
+    width: 28vw;
+    height: 90%;
+    object-fit: cover;
+    border-radius: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
