@@ -10,31 +10,31 @@ const TheReviews = [
     name: "Susan J.",
     image: user1,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum dolores ex voluptatibus doloribus officia soluta.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis.",
   },
   {
     name: "Clementine C.",
     image: user2,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum dolores ex voluptatibus doloribus officia soluta.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum.",
   },
   {
     name: "Samuel E.",
     image: user3,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum dolores ex voluptatibus doloribus officia soluta.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum .",
   },
   {
     name: "Kevin P.",
     image: user4,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum dolores ex voluptatibus doloribus officia soluta.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit,  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit officiis illum dolores .",
   },
   {
     name: "Adam S.",
     image: user5,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit, veritatis vitae expedita. Perspiciatis, maiores possimus impedit.  Culpa dolore, itaque sed possimus accusantium repudiandae illo sit  officiis illum dolores ex voluptatibus doloribus officia soluta.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit, veritatis vitae expedita. Perspiciatis, maiores possimus impedit.  Culpa dolore, itaque sed possimus accusantium repudiandae .",
   },
   {
     name: "Thu Ve",
