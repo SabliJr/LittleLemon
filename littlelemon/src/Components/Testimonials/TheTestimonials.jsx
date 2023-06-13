@@ -1,4 +1,5 @@
-import React, { useRef, useState } from "react";
+import React, { useState, useCallback } from "react";
+
 import "./TheTestimonials.css";
 
 import reviews from "../../Data/reviews";
@@ -6,24 +7,17 @@ import reviews from "../../Data/reviews";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 
 const TheTestimonials = () => {
-  const [showArrow, setShowArrow] = useState(0);
-  const Length = reviews.length;
-
-  let prevSlide = () => {
-    setShowArrow(showArrow === 0 ? Length - 1 : 0);
-    console.log(Length);
-  };
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   let nextSlide = () => {
-    setShowArrow(showArrow === Length - 1 ? 0 : showArrow + 1);
-    console.log(Length);
+    setCurrentSlide((currentSlide + 100) * reviews.length);
   };
 
   return (
     <section className='testimonials'>
       <h2>What people say about us!</h2>
       <div className='whole_Div'>
-        <RiArrowLeftSLine className='scroll_Left' onClick={prevSlide} />
+        {/* <RiArrowLeftSLine className='scroll_Left' onClick={nextSlide} /> */}
         <div className='reviewsQuotes'>
           {reviews.map((x, i) => (
             <figure key={i}>
@@ -35,7 +29,7 @@ const TheTestimonials = () => {
             </figure>
           ))}
         </div>
-        <RiArrowRightSLine className='scroll_Right' onClick={nextSlide} />
+        {/* <RiArrowRightSLine className='scroll_Right' /> */}
       </div>
     </section>
   );
